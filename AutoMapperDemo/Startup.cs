@@ -23,6 +23,7 @@ namespace AutoMapperDemo
         public IConfiguration Configuration { get; }
 
         // This method gets called by the runtime.
+        //comment
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddAutoMapper(typeof(Startup));
